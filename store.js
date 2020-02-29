@@ -4,7 +4,7 @@ mongoose.Promise = global.Promise;
 const slug = require('slugs');
 
 // build out the store's schema
-//TODO: rename the STORE to twetch-post or ... twetch to go or something
+// TODO: rename the STORE to twetch-post or ... twetch to go or something
 const storeSchema = new mongoose.Schema({
     name: {
         type: String,
